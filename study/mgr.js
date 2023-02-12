@@ -32,10 +32,24 @@ define(['managerAPI'], function(Manager) {
         blackLabels:blackLabels,
         whiteLabels:whiteLabels,
         posWords : API.shuffle([
-            'Compliant', 'Responsible', 'Organized', 'Educated'
+            'Love', 'Cheer', 'Friend', 'Pleasure',
+            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
+            'Smiling','Cherish', 'Excellent', 'Glad', 
+            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
+            'Excitement', 'Laughing', 'Attractive','Delightful', 
+            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
+            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
+            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph'
         ]), 
         negWords : API.shuffle([
-            'Non compliance', 'Irresponsible', 'Disorganized', 'Uneducated'
+            'Abuse', 'Grief', 'Poison', 'Sadness', 
+            'Pain', 'Despise', 'Failure', 'Nasty', 
+            'Angry', 'Detest', 'Horrible', 'Negative', 
+            'Ugly', 'Dirty', 'Gross', 'Evil', 
+            'Rotten','Annoy', 'Disaster', 'Horrific',  
+            'Scorn', 'Awful', 'Disgust', 'Hate', 
+            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
+            'Hatred', 'Hurtful', 'Sickening', 'Yucky'
         ])
     });
 
